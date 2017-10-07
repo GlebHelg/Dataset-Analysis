@@ -1,0 +1,37 @@
+{"serier":[{"serie_id":"1",
+            "pakker":[
+                        {"pakke_nrf":"12345678",                                     "modul_nrf": ["n1","n2","n3","n4","n5"],
+                                                
+                                                "leverandor":[  { "lev_navn":"bd",  "pris_liste":[1.10,1.11,1.12,1.13,1.14], "tot_pris":17},
+                                                                { "lev_navn":"onn", "pris_liste":[1.10,1.11,1.12,1.13,1.14], "tot_pris":16},
+                                                                { "lev_navn":"hr",  "pris_liste":[1.10,1.11,1.12,1.13,1.14], "tot_pris":15},
+                                                                { "lev_navn":"ahl", "pris_liste":[1.10,1.11,1.12,1.13,1.14], "tot_pris":14}],
+
+                                                                                                                        "billigst_lev": "ahl ",
+                                                                                                                        "billigst_pris": 14 },
+
+                        {"pakke_nrf":"12345679",                                     "modul_nrf": ["n1","n2","n3","n4","n5"],
+                        
+                                                "leverandor":[ { "lev_navn":"bd",  "pris_liste":[1.10,1.11,1.12,1.13,1.14], "tot_pris":14},
+                                                                { "lev_navn":"onn", "pris_liste":[1.10,1.11,1.12,1.13,1.14], "tot_pris":15},
+                                                                { "lev_navn":"hr",  "pris_liste":[1.10,1.11,1.12,1.13,1.14], "tot_pris":16},
+                                                                { "lev_navn":"ahl", "pris_liste":[1.10,1.11,1.12,1.13,1.14], "tot_pris":17}],
+
+                                                                                                                        "billigst_lev": "bd",
+                                                                                                                        "billigst_pris": 14},
+                        
+                        {"pakke_nrf":"12345671",                                    "modul_nrf": ["n1","n2","n3","n4","n5"],
+
+                                                "leverandor":[  { "lev_navn":"bd", "pris_liste":[1.10,1.11,1.12,1.13,1.14], "tot_pris":15},
+                                                                { "lev_navn":"onn","pris_liste":[1.10,1.11,1.12,1.13,1.14], "tot_pris":16},
+                                                                { "lev_navn":"hr", "pris_liste":[1.10,1.11,1.12,1.13,1.14], "tot_pris":14},
+                                                                { "lev_navn":"ahl","pris_liste":[1.10,1.11,1.12,1.13,1.14], "tot_pris":17}],
+
+                                                                                                                        "billigst_lev": "hr",
+                                                                                                                        "billigst_pris": 14}
+                        
+                        
+                      ],
+           "konflikt":"u"
+        }]
+}
